@@ -60,6 +60,7 @@ const useStyles = makeStyles<Theme>(({ breakpoints, spacing }) => {
       margin: '0 auto',
       maxWidth: breakpoints.values.lg,
       minWidth: breakpoints.values.md,
+      padding: spacing(2),
       width: '100%'
     }
   }
